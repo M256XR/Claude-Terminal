@@ -5,7 +5,7 @@ Claude Code 専用ターミナル。Windows での改行問題を解消し、エ
 ## 機能
 
 - **Shift+Enter = 改行、Enter = 送信** (Windows ターミナルの改行問題を解消)
-- **Claude Code 専用ボタン** → `claude` / `--continue` / `--resume` をワンクリック
+- **Claude Code 専用ボタン** → `claude` をワンクリック
 - **エイリアス** → よく使うコマンドをドロップダウンから選択
 - **コマンド履歴** → ↑↓キーで履歴を遡れる
 - **Ctrl+C ボタン** → プロセス中断をワンクリック
