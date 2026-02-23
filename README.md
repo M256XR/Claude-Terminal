@@ -1,11 +1,10 @@
 # Claude Terminal
 
-Claude Code 専用ターミナル。Windows での改行問題を解消し、ログ自動保存とエイリアス機能を搭載。
+Claude Code 専用ターミナル。Windows での改行問題を解消し、エイリアス機能を搭載。
 
 ## 機能
 
-- **Enter = 改行、Ctrl+Enter = 送信** (Windows ターミナルの改行問題を解消)
-- **ログ自動保存** → `~/claude-terminal-logs/` に日時付きテキストファイルで保存
+- **Shift+Enter = 改行、Enter = 送信** (Windows ターミナルの改行問題を解消)
 - **Claude Code 専用ボタン** → `claude` / `--continue` / `--resume` をワンクリック
 - **エイリアス** → よく使うコマンドをドロップダウンから選択
 - **コマンド履歴** → ↑↓キーで履歴を遡れる
@@ -37,23 +36,12 @@ npm run build
 
 | キー | 動作 |
 |------|------|
-| Enter | 改行 |
-| Ctrl+Enter | コマンド送信 |
+| Shift+Enter | 改行 |
+| Enter | コマンド送信 |
 | ↑ / ↓ | 入力履歴を移動 |
 | Ctrl+C | プロセス中断 |
 | Ctrl+L | 画面クリア |
 | Tab | タブ補完 |
-
-## ログの場所
-
-```
-~/claude-terminal-logs/
-  session_2025-02-23T12-00-00.txt
-  session_2025-02-23T15-30-00.txt
-  ...
-```
-
-ANSI エスケープコードを除去したプレーンテキストで保存されます。
 
 ## エイリアス一覧
 
